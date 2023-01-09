@@ -107,3 +107,10 @@ Route::get('/get_antrian_akta_selanjutnya', [App\Http\Controllers\AntrianaktaCon
 Route::get('/get_jumlah_antrian_akta', [App\Http\Controllers\AntrianaktaController::class, 'get_jumlah_antrian_akta'])->name('get_jumlah_antrian_akta');
 
 Route::get('/get_sisa_antrian_akta', [App\Http\Controllers\AntrianaktaController::class, 'get_sisa_antrian_akta'])->name('get_sisa_antrian_akta');
+
+//layar jenis antrian
+
+Route::get('/layar_jenis', [App\Http\Controllers\LayarjenisController::class, 'index'])->name('antriannew.layar_jenis');
+
+//layar nomor antrian
+Route::get('/layar_nomor', [App\Http\Controllers\LayarnomorController::class, 'index'])->name('antriannew.layar_nomor');

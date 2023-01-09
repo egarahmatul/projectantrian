@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class LayarjenisController extends Controller
+class LayarnomorController extends Controller
 {
     /**
      * Create a new controller instance.
@@ -23,6 +23,6 @@ class LayarjenisController extends Controller
      */
     public function index()
     {
-        return view('layouts.module2.layar_jenis');
+        return view('layouts.module2.layar_nomor');
     }
 }

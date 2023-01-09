@@ -86,8 +86,8 @@
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="{{url('antriannew/layarjenisantrian')}}">Layar Jenis Antrian</a>
-                        <a class="collapse-item" href="#">Layar Nomor Antrian</a>
+                        <a class="collapse-item" href="{{url('/layar_jenis')}}">Layar Jenis Antrian</a>
+                        <a class="collapse-item" href="{{url('/layar_nomor')}}">Layar Nomor Antrian</a>
                     </div>
                 </div>
             </li>
