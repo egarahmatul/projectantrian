@@ -1,6 +1,6 @@
 <nav class="navbar navbar-dark navbar-expand-lg sticky-top ">
                     <div class="container">
-                        <div class="content w-100 d-flex align-items-center my-4 justify-content-between">
+                        <div class="content w-100 d-flex align-items-center justify-content-between">
                             <div class="logo d-flex align-self-center">
                                 <img src="{{url('asset/vendors/images/logobengkalis.png')}}" alt="logo">
                                 <h2>DINAS KEPENDUDUKAN DAN PENCATATAN SIPIL <br> KABUPATEN BENGKALIS</h2>

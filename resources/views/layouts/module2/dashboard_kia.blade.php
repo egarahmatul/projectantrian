@@ -1,4 +1,5 @@
-@extends('antriannew.module.layout')
+@extends('antriannew.module.layout_kia')
+@include('antriannew.module.layout')
 
 @section('content')
 <!-- Page Wrapper -->
@@ -24,7 +25,7 @@
 
                 <!-- menampilkan informasi jumlah antrian -->
                 <div class="col-md-3 mb-4">
-                  <div class="card border-0 shadow-sm"  >
+                  <div class="card border-0 shadow-sm bg-white"  >
                     <div class="card-body p-4 ">
                       <div class="d-flex justify-content-start">
                         <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="#36B9CC" class="bi bi-people-fill" viewBox="0 0 16 16">
@@ -41,7 +42,7 @@
                 </div>
                 <!-- menampilkan informasi nomor antrian yang sedang dipanggil -->
                 <div class="col-md-3 mb-4">
-                  <div class="card border-0 shadow-sm">
+                  <div class="card border-0 shadow-sm bg-white">
                     <div class="card-body p-4">
                       <div class="d-flex justify-content-start">
                           <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="#36B9CC" class="bi bi-person-fill-check" viewBox="0 0 16 16">
@@ -58,7 +59,7 @@
                 </div>
                 <!-- menampilkan informasi nomor antrian yang akan dipanggil selanjutnya -->
                 <div class="col-md-3 mb-4">
-                  <div class="card border-0 shadow-sm">
+                  <div class="card border-0 shadow-sm bg-white">
                     <div class="card-body p-4">
                       <div class="d-flex justify-content-start">
                           <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="#36B9CC" class="bi bi-person-fill-add" viewBox="0 0 16 16">
@@ -75,7 +76,7 @@
                 </div>
                 <!-- menampilkan informasi jumlah antrian yang belum dipanggil -->
                 <div class="col-md-3 mb-4">
-                  <div class="card border-0 shadow-sm">
+                  <div class="card border-0 shadow-sm bg-white">
                     <div class="card-body p-4">
                       <div class="d-flex justify-content-start">
                         <div class="feature-icon-3 me-4">
@@ -94,7 +95,7 @@
               </div>
 
               <!-- Tabel -->
-              <div class="card border-0 shadow-sm">
+              <div class="card border-0 shadow-sm bg-white">
                 <div class="card-body p-4">
                   <div class="table-responsive">
                     <table class="table table-bordereda table-hover tabel-antrian" width="100%">

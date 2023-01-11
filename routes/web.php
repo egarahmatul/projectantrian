@@ -1,7 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AntrianController;
 use App\Http\Controllers\AntriankiaController;
+use App\Http\Controllers\AntrianktpController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -30,6 +32,9 @@ Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('an
 Auth::routes();
 
 // KIA
+ Route::get('/getantrian', [App\Http\Controllers\AntrianController::class, 'getantrian'])->name('getantrian');
+
+ Route::post('/insert', [App\Http\Controllers\AntrianController::class, 'insert'])->name('insert');
 
  Route::get('admin/{id}/update', [App\Http\Controllers\AntriankiaController::class, 'update'])->name('update');
 
@@ -50,8 +55,9 @@ Auth::routes();
 
 Route::get('/getantrianktp', [App\Http\Controllers\AntrianController::class, 'getantrianktp'])->name('getantrianktp');
 
+Route::middleware(['cors'])->group(function () {
 Route::post('/insertktp', [App\Http\Controllers\AntrianController::class, 'insertktp'])->name('insertktp');
-
+});
 Route::get('/dashboard_ktp', [App\Http\Controllers\AntrianktpController::class, 'index'])->name('index');
 
 Route::get('admin/{id}/update_ktp', [App\Http\Controllers\AntrianktpController::class, 'update_ktp'])->name('update_ktp');
@@ -114,3 +120,4 @@ Route::get('/layar_jenis', [App\Http\Controllers\LayarjenisController::class, 'i
 
 //layar nomor antrian
 Route::get('/layar_nomor', [App\Http\Controllers\LayarnomorController::class, 'index'])->name('antriannew.layar_nomor');
+

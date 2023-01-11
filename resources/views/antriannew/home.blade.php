@@ -27,7 +27,7 @@
                     <div class="row">
 
                         <!-- Content Column -->
-                            <div class="card shadow mb-4">
+                            <div class="card shadow mb-4 bg-white">
                                 <div class="row align-items-center">
                                     <div class="col-md-6">
                                         <img src="{{url('asset/vendors/images/gambardashboard.png')}}" alt="" style="width:350px; height:350px" >
@@ -36,10 +36,10 @@
                                         <h3 class="font-20 weight-500 mb-10" style="color:#10A19D">
                                             Welcome to Dashboard Admin
                                         </h3>
-                                        <h3 class="font-20 weight-500 mb-10" style="color:#10A19D">
+                                        <h3 class="font-20 weight-500 mb-10 px-1" style="color:#10A19D">
                                             Disdukcapil Bengkalis
                                         </h3>
-                                        <p class="font-18 max-width-600">Dinas Kependudukan dan Pencatatan Sipil mempunyai tugas melaksanakan urusan administrasi kependudukan di bidang Kependudukan dan Pencatatan Sipil berdasarkan Azas Otonomi dan Tugas Pembantuan.</p>
+                                        <p class="font-18 max-width-600 px-2">Dinas Kependudukan dan Pencatatan Sipil mempunyai tugas melaksanakan urusan administrasi kependudukan di bidang Kependudukan dan Pencatatan Sipil berdasarkan Azas Otonomi dan Tugas Pembantuan.</p>
                                     </div>
                                 </div>
                             </div>

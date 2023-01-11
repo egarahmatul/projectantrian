@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\Models\Antrian;
+use App\Models\Antrianakta;
 use DB;
 use Illuminate\Http\Request;
 
@@ -12,11 +12,11 @@ class AntrianaktaController extends Controller
     	return view('layouts.module2.dashboard_akta');
     }
 
-    public function update($id)
+    public function update_akta($id)
     {
     	$update_date = gmdate("Y-m-d H:i:s", time() + 60 * 60 * 7);
 
-    	$update = Antrian::where('id', $id)->update([
+    	$update = Antrianakta::where('id', $id)->update([
     		'status' => "1",
     		'update_date' => $update_date,
     	]);
