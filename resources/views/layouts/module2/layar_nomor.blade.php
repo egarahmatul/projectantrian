@@ -1,3 +1,4 @@
+@extends('antriannew.module.layout_nomorktp')
 @extends('antriannew.module.layout')
 @section('content')
 
@@ -48,9 +49,9 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <div class="d-none d-lg-block d-md-block d-sm-none"> 
+                    <div class="d-none d-lg-block d-md-none d-sm-none"> 
                             <div class="video">
-                               <iframe width="620" height="290" src="https://www.youtube.com/embed/LOLOuoonGZ4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                               <iframe width="100%" height="290" src="https://www.youtube.com/embed/LOLOuoonGZ4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                      </div>       
                 </div>
@@ -68,10 +69,10 @@
                         </div>
                     </div>
 
-                    <div class="card py-4">
+                    <div class="card">
                         <div class="card-body">
-                            <div class="nomor-perekaman">
-                                
+                            <div class="nomor-ktpel">
+                                <p id="antrian-sekarang-ktpel" class="fs-3 text-black mb-1" ></p>
                             </div>
                         </div>
                     </div>
@@ -87,10 +88,10 @@
                         </div>
                     </div>
 
-                    <div class="card py-4">
+                    <div class="card ">
                         <div class="card-body">
                             <div class="nomor-ktp">
-                                
+                                <p id="antrian-sekarang-ktp" class="fs-3 text-black mb-1" ></p>
                             </div>
                         </div>
                     </div>
@@ -106,10 +107,10 @@
                         </div>
                     </div>
 
-                    <div class="card py-4">
+                    <div class="card">
                         <div class="card-body">
                             <div class="nomor-kia">
-                                
+                                <p id="antrian-sekarang" class="fs-3 text-black mb-1" ></p>
                             </div>
                         </div>
                     </div>
@@ -125,10 +126,10 @@
                         </div>
                     </div>
 
-                    <div class="card py-4">
+                    <div class="card">
                         <div class="card-body">
                             <div class="nomor-akta">
-                                
+                                <p id="antrian-sekarang-akta" class="fs-3 text-black mb-1" ></p>
                             </div>
                         </div>
                     </div>

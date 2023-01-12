@@ -121,3 +121,8 @@ Route::get('/layar_jenis', [App\Http\Controllers\LayarjenisController::class, 'i
 //layar nomor antrian
 Route::get('/layar_nomor', [App\Http\Controllers\LayarnomorController::class, 'index'])->name('antriannew.layar_nomor');
 
+
+//Menampilkan Nomor Antrian di Monitor ktp
+Route::get('/layar_nomor', [App\Http\Controllers\LayarktpController::class, 'index'])->name('index');
+
+
