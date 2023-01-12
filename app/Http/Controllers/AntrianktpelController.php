@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\Models\Antrianktp;
+use App\Models\Antrianktpel;
 use DB;
 use Illuminate\Http\Request;
 

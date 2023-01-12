@@ -33,7 +33,8 @@
 
                     <div class="card py-5" >
                         <div class="card-body">
-                            <div class="nomor">     
+                            <div class="nomor">
+                                     
                             </div>
                         </div>
                     </div>
@@ -41,13 +42,14 @@
                     <div class="card my-1">
                         <div class="card-body ">
                             <div class="tujuan">
-                                <h4>KTP</h4>
+                                <h4 id="">KTP</h4>
                             </div>
                         </div>
                     </div>
                     </div>
                 </div>
 
+                <!-- Link Video Youtube -->
                 <div class="col-lg-6">
                     <div class="d-none d-lg-block d-md-none d-sm-none"> 
                             <div class="video">

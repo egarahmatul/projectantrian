@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Antrian</title>
+    <title>Antrian Dukcapil</title>
 
     @yield('css')
     <!-- Custom fonts for this template-->
