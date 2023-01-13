@@ -165,10 +165,10 @@ header h5{
     box-shadow: -0 8px 15px 0 #9ED5C5;
 }
 
-    @media screen and (max-width: 500px) {
+    @media only screen and (max-width: 600px) {
         .logo h2 {
-            font-size: 50px;
-            line-height: 50px;
+            font-size: 10px;
+            line-height: 15px;
             word-spacing:1px;
             margin-top: 15px;
 
@@ -184,21 +184,21 @@ header h5{
           #tanggal{
               font-weight: 700;
               color: #383838;
-              font-size: 15px;
+              font-size: 10px;
               font-family:sans-serif;
             }
           
           #waktu{
               font-weight: 700;
               color: #383838;
-              font-size: 15px;
+              font-size: 10px;
               font-family:sans-serif;
           }  
       }
   
       @media screen and (max-width: 1200px) {
         .logo h2 {
-            font-size: 12px;
+            font-size: 10px;
             line-height: 20px;
             word-spacing:1px;
             margin-top: 15px;
