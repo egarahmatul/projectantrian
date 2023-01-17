@@ -1,5 +1,6 @@
 @extends('antriannew.module.layout_nomorktp')
 @extends('antriannew.module.layout')
+
 @section('content')
 
 <body id="page-top">
@@ -23,30 +24,30 @@
 
                     <!-- Nomor Antrian  -->
                     <div class="number">
-                    <div class="card my-1">
-                        <div class="card-body">
-                            <div class="antrian">
-                                <h4>Nomor Antrian</h4>
+                        <div class="card my-1">
+                            <div class="card-body">
+                                <div class="antrian">
+                                    <h4>Nomor Antrian</h4>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="card py-5" >
-                        <div class="card-body">
-                            <div class="nomor">
-                                     
+                        <div class="card py-5" >
+                            <div class="card-body">
+                                <div class="nomor">
+                                    <p id="antrian-monitor"></p>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="card my-1">
-                        <div class="card-body ">
-                            <div class="tujuan">
-                                <h4 id="">KTP</h4>
+                        <div class="card my-1">
+                            <div class="card-body ">
+                                <div class="tujuan">
+                                    <h4 id="">KTP</h4>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    </div>
+                     </div>
                 </div>
 
                 <!-- Link Video Youtube -->

@@ -19,7 +19,7 @@
 
     <div class="container-fluid">
         <div class="pd-ltr-20">
-            <div class="card-box mb-30 ">
+            <div class="card-box mb-30">
                 <br>
                 <div class="row">
 

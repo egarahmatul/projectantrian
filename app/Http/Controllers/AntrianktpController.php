@@ -192,5 +192,8 @@ class AntrianktpController extends Controller
         // tampilkan data
         echo number_format($sisa_antrian, 0, '', '.');
     }
+
+    
     
 }
+
