@@ -54,7 +54,7 @@
                 <div class="col-lg-6">
                     <div class="d-none d-lg-block d-md-none d-sm-none"> 
                             <div class="video">
-                               <iframe width="100%" height="290" src="https://www.youtube.com/embed/LOLOuoonGZ4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                               <iframe width="100%" height="290" src="https://www.youtube.com/embed/LOLOuoonGZ4?autoplay=1&mute=1&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                      </div>       
                 </div>
